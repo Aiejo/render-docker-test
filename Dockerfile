@@ -25,7 +25,7 @@ WORKDIR /app/bundle
 # needs a mongoinstance - defaults to container linking with alias 'mongo'
 ENV DEPLOY_METHOD=docker \
     NODE_ENV=production \
-    MONGO_URL=mongodb+srv://alejandrocalderon:<db_password>@pruebarenderrocket.y4ehv.mongodb.net/?retryWrites=true&w=majority&appName=PruebaRenderRocket \
+    MONGO_URL=mongodb+srv://alejandrocalderon:jVW5YqGW1KcPKRep@pruebarenderrocket.y4ehv.mongodb.net/?retryWrites=true&w=majority&appName=PruebaRenderRocket \
     HOME=/tmp \
     PORT=3000 \
     ROOT_URL=http://localhost:3000 \
